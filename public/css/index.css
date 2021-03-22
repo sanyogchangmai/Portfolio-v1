@@ -1,0 +1,405 @@
+/* !Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
+
+body{
+    background-color: #fffafa;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+h6{
+  text-align: center;
+}
+
+/* Introduction section */
+.intro{
+    margin-top: 15%;
+}
+.intro h4{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Noto Sans', sans-serif;
+    color: #ffbc02;
+}
+.intro h1{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+}
+.subtitle{
+    color: #00000094;
+}
+.intro-left p{
+    max-width: 50%;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+.intro-img{
+    margin-top: -10%;
+    border-radius: 50%;
+    height: 90%;
+    width: 80%;
+}
+.action-btn{
+  font-family: 'Noto Sans', sans-serif;
+    max-width: 200px;
+    padding: 10px 25px;
+    color: #000000;
+    background-color: #ffbc02;
+    border-radius: 5px;
+    border-style: none;
+    background-position: center;
+    transition: background 0.8s;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+  }
+  .action-btn:hover {
+    background: #ffbc02 radial-gradient(circle, transparent 1%, #ffbc02 1%) center/15000%;
+  }
+  .action-btn:active {
+    background-color: #eceff1;
+    background-size: 100%;
+    transition: background 0s;
+  }
+  .intro-resume-btn{
+    font-family: 'Noto Sans', sans-serif;
+    max-width: 200px;
+    padding: 10px 35px;
+    margin: 5px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    border-style: none;
+    background-position: center;
+    transition: background 0.8s;
+  }
+  .intro-resume-btn:hover {
+    background: #000000 radial-gradient(circle, transparent 1%, #000000 1%) center/15000%;
+  }
+  .intro-resume-btn:active {
+    outline: none;
+    background-color: #eceff1;
+    background-size: 100%;
+    transition: background 0s;
+  }
+
+  /* About section */
+
+  .about{
+    margin-top: 18%;
+  }
+  .about-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .row{
+    margin-top: 5%;
+  }
+  .skills-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 4;
+  }
+  .about-left p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    color: #00000094;
+  }
+  .about-img{
+    max-width: 100%;
+    max-height: 60%;
+    border-radius: 50%;
+    border: 10px solid #ffbc02;
+    display: block;
+    margin: 20px auto 20px auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+  .skills-section{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+  }
+  i{
+    color: #ffbc02;
+  }
+  .about li{
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000094;
+  }
+
+  /* Projects section */
+ .projects h2{
+   font-size: 40px;
+   font-weight: 600;
+   font-family: 'Noto Sans', sans-serif;
+ }
+  .card{
+    display: block;
+    margin: 10px auto;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+  }
+  .card-text{
+    margin-top: 8px;
+  }
+  .project-name{
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  .card-demo-btn{
+    font-family: 'Noto Sans', sans-serif;
+      max-width: 200px;
+      padding: 10px 25px;
+      color: #000000;
+      background-color: #ffbc02;
+      border-radius: 5px;
+      border-style: none;
+      background-position: center;
+      transition: background 0.8s;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+    }
+    .card-demo-btn:hover {
+      background: #ffbc02 radial-gradient(circle, transparent 1%, #ffbc02 1%) center/15000%;
+    }
+    .card-demo-btn:active {
+      background-color: #eceff1;
+      background-size: 100%;
+      transition: background 0s;
+    }
+    .card:hover{
+      margin-top: 0;
+      transition: 0.6s ease;
+     }
+    .card:active{
+     margin-top: 0;
+     transition: 0.6s ease;
+     }
+
+     /* Testimonials */
+     .testimonials{
+       margin: 20% auto;
+     }
+     .carousel-holder{
+       border-radius: 5px;
+       margin-top: 5%;
+       max-width: 80%;
+       display: block;
+       margin-left: 20%;
+       margin-right: 20%;
+       box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+       border: none;
+     }
+     .testimonials h3{
+      color: #00000094;
+       margin-bottom: 1%;
+       font-size: 50px;
+       font-weight: 700;
+       font-family: 'Noto Sans', sans-serif;
+     }
+     .testimonials hr{
+       max-width: 70%;
+     }
+     .carousel slide{
+       max-width: 60%;
+       display: block;
+       margin: 20% 60%;
+       border: none;
+     }
+     .carousel-item{
+       background-color: #ffbc02;
+     }
+     .review-text{
+       max-height: 100%;
+       max-width: 80%;
+       margin: 30px 100px;
+       background-color: #ffbc02;
+     }
+     .review-text p{
+       font-size: 20px;
+       display: block;
+       margin: 50px auto;
+       max-width: 60%;
+       font-family: 'Noto Sans', sans-serif;
+     }
+ 
+
+  /* Contact Me */
+
+  .contact-title{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 120px;
+  }
+  .contact-text{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    max-width: 40%;
+    color: #00000094;
+  }
+  .contact-btn{
+    font-family: 'Noto Sans', sans-serif;
+    display: block;
+    margin: 20px auto 100px;
+    max-width: 200px;
+    padding: 15px 30px;
+    color: #000000;
+    background-color: #ffbc02;
+    border-radius: 5px;
+    border-style: none;
+    background-position: center;
+    transition: background 0.8s;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+  }
+  .contact-btn:hover {
+    background: #ffbc02 radial-gradient(circle, transparent 1%, #ffbc02 1%) center/15000%;
+  }
+  .contact-btn:active {
+    background-color: #eceff1;
+    background-size: 100%;
+    transition: background 0s;
+  }
+
+
+/* footer section */
+
+.footer-title{
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+}
+.social{
+  margin: auto;
+  position: relative;
+}
+.holder{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  max-width: 30%;
+  margin: 0 auto;
+}
+.social i{
+  justify-content: center;
+}
+.fa-linkedin{
+  color: #0e76a8;
+  font-size: 30px;
+  margin: 10px 10px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #0e76a8;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+}
+.fa-github{
+  font-size: 30px;
+  color: #6e5494;
+  margin: 10px 10px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #6e5494;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+
+}
+.fa-twitter-square{
+  font-size: 30px;
+  color: #00acee;
+  margin: 10px 10px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #00acee;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+}
+.fa-medium{
+  font-size: 30px;
+  color: #000000;
+  margin: 10px 10px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+}
+.signature{
+  text-align: center;
+  /* background-color: #ffbc02; */
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0;
+  margin: 5px 0 0 0;
+  font-size: 15px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 200;
+}
+
+
+
+@media(max-width: 600px){
+
+  /* Introduction */
+    .intro{
+        margin: 42% 5% 10% 5%;
+    }
+    .intro h1{
+        font-size: 40px;
+    }
+    .intro p{
+        font-size: 18px;
+        max-width: 80%;
+    }
+
+    /* testimonials */
+    .testimonials{
+      margin-top: 50%;
+    }
+    .carousel-holder{
+      margin-left: 5%;
+      margin-right: 5%;
+      max-width: 100%;
+    }
+    .testimonials h3{
+       font-size: 30px;
+       margin: 10px 10px;
+     }
+    .review-text p{
+      font-size: 12px;
+      display: block;
+      margin-right: 110px;
+      max-width: 80%;
+      font-family: 'Noto Sans', sans-serif;
+    }
+
+
+    /* About */
+    .about{
+      margin-top: 120px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    /* Projects */
+    .projects h2{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    /* Contact Me */
+    .contact-text{
+      max-width: 70%;
+    }
+}
