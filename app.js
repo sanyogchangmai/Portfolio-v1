@@ -1,22 +1,23 @@
 const express = require("express");
+const ejs = require("ejs");
 const app = express();
+const mongoose = require("mongoose");
+
 app.use(express.static('public'));
+app.set("view engine","ejs");
 
 app.get("/",function(req,res){
-    res.sendFile(__dirname + "/index.html");
+    res.render("index");
 })
 app.get("/home",function(req,res){
-    res.sendFile(__dirname + "/index.html");
+    res.render("index");
 })
 app.get("/blog",function(req,res){
-    res.sendFile(__dirname + "/blog.html");
+    res.render("blog");;
 })
-app.get("/contact",function(req,res){
-    res.sendFile(__dirname + "/contact.html");
+app.use(function(req,res){
+    res.render("404");
 })
-// app.get("/about",function(req,res){
-//     res.sendFile(__dirname + "/about.html");
-// })
 
 app.listen(3000,function(){
     console.log("Listening at port 3000");

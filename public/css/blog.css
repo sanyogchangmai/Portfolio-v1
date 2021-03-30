@@ -1,0 +1,103 @@
+/* !Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* Blog intro section */
+.intro-img-holder{
+    background-image: url("../images/peer-code.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Noto Sans', sans-serif;
+}
+.blog-title{
+    color: #ffffff;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 200px;
+    font-weight: 800;
+}
+.welcome-note{
+    display: block;
+    margin: 80px auto;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    max-width: 50%;
+    padding-bottom: 150px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Subgroup section */
+.sub-left{
+    background-image: linear-gradient(#198908 ,#48fb00);
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+.sub-middle{
+    background-image: linear-gradient(#ff9900,#ffcc00);
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+.sub-right{
+    background-image: linear-gradient(#3300ff,#3388ff);
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 30px auto;
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+}
+.sub-left:hover {
+    background-image: linear-gradient(#48fb00,#198908);
+    transition: 0.5s ease;
+  }
+.sub-middle:hover {
+    background-image: linear-gradient(#ffcc00,#ff9900);
+    transition: 0.5s ease;
+}
+.sub-right:hover {
+    background-image: linear-gradient(#3388ff,#3300ff);
+    transition: 0.5s ease;
+}
+
+/* Blogs */
+
+.blogs{
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+}
+.blog-pic{
+    margin: 30px auto 30px;
+}
+.blog-post-title{
+    margin: 30px auto;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.blog-post-desc{
+    margin: 20px auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+.blog-post{
+    margin: 30px auto;
+    font-family: 'Noto Sans', sans-serif;
+}
